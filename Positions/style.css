@@ -1,0 +1,50 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 200%;
+}
+
+body{
+height: 100%;
+text-align: center;
+}
+
+.bloq{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background: purple;
+    color: white;
+    border: 2px solid black;
+}
+
+#static{
+    position: static;
+}
+
+#relative{
+    position: relative;
+    top: 100px;
+    left: 80px;
+
+}
+#absolute{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+#fixed{
+    position: fixed;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+
+
+}
+#sticky{
+    position: sticky;
+    top: 50px;
+}

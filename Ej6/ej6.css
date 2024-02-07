@@ -1,0 +1,36 @@
+table {
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+}
+tr td:first-child {
+    background-color: green;
+}
+[colspan="5"] {
+    background-color: yellow;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: red;
+}
+a:link {
+    color: green;
+}
+tr th:last-child:hover,
+tr td:last-child:hover {
+    font-size: 2em;
+}
+thead tr th::first-letter {
+    font-size:2em;
+}
+input:required {
+    border: 1px solid red;
+    padding: 10px;
+}
+label::after {
+    content:"*";
+    color: red;
+}

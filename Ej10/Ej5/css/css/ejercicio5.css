@@ -1,0 +1,41 @@
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color:green;
+}
+a:visited {
+    color: blue;
+    text-decoration: line-through;
+    border: 1px solid black;
+}
+a:hover, a:visited:hover {
+    color: green;
+}
+ul li:first-child {
+    background-color: grey;
+}
+ul:first-of-type li:last-child {
+    background-color: blue;
+    color: white;
+}
+ul:last-of-type {
+    border: 1px solid black;
+}
+ul:last-of-type li:nth-child(2) {
+    color: orange;
+}
+p::first-letter {
+    color: red;
+    font-size: 2em;
+}
+p::first-line {
+    font-size: 1.2em;
+    color: rgb(111,111,207);
+}
+p::after {
+    content: "FIN";
+    border: 1px solid green;
+}

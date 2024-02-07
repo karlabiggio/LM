@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    background-color: grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+}
+.sidebar {
+    background-color: yellow;
+    float: left;
+    width: 25%;
+    height: 600px;
+}
+.cb {
+    clear: both;
+}
+.article {
+    background-color: red;
+    float: left;
+    height: 300px;
+    width: 20%;
+    margin-left: 5%;
+    z-index: 20;
+}
+footer {
+    background-color: blue;
+    float: left;
+    height: 290px;
+    margin-left: 5%;
+    margin-top: 10px;
+    width: 70%;
+}
